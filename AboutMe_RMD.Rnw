@@ -1,0 +1,49 @@
+\documentclass[10pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{bookman}
+\usetheme{Warsaw}
+\usecolortheme{seahorse}
+
+\title[About Kassidy] {Hello, it's me, Kassidy B}
+\subtitle{All about me, Kassidy Buse}
+\author{K.~K.~Buse\inst{1}}
+\institute{\inst{1} Department of Animal Science\\ University of Nebraska-Lincoln}
+\date{STAT 850\\ October 2020}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Quick Facts}
+
+\begin{block}{Birthday}
+April 27
+\end{block}
+
+\begin{block}{Hometown}
+Bridgewater, SD
+\begin{itemize}
+\item Population: 491
+\item Claim to fame: Home of Sparky Anderson
+\begin{itemize}
+\item Seriously...everything is named after Sparky
+\end{itemize}
+\end{itemize}
+\end{block}
+
+\begin{block}{Program of Study}
+\begin{itemize}
+\item Ruminant Nutrition
+\begin{itemize}
+\item Dairy focus
+\end{itemize}
+\item 1st year PhD
+\item Expected graduation date: Summer 2023
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+\end{document}
