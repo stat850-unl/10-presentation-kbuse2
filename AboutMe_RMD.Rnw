@@ -3,6 +3,10 @@
 \usepackage{bookman}
 \usetheme{Warsaw}
 \usecolortheme{seahorse}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.8}
+\usepgfplotslibrary{statistics}
+\usepackage{caption}
 
 \title[About Kassidy] {Hello, it's me, Kassidy B}
 \subtitle{All about me, Kassidy Buse}
@@ -37,6 +41,7 @@ Bridgewater, SD
 \item Ruminant Nutrition
 \begin{itemize}
 \item Dairy focus
+\item Specialization in Protein and Forages
 \end{itemize}
 \item 1st year PhD
 \item Expected graduation date: Summer 2023
@@ -45,5 +50,53 @@ Bridgewater, SD
 
 \end{frame}
 
+\begin{frame}
+\frametitle{If it isn't obvious enough...}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{block}{Moo}
+Obviously, it's cows. Growing up on a dairy farm, my life revolved around them. Seriously, I had to take care of the calves before I could go to school during the week (and trust me, they got done, even if I was late for the bus or school), and family holiday get togethers had to occur within the windows between milkings. As annoying or irritating as that might sound, I still can't picture a day in my life that doesn't revolve around them. I mean, who can resist a face (and ears...and nose) like that!?
+\end{block}
+\end{column}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=\linewidth]{BabyG.jpg}
+\centering
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Favorite Plot}
+\begin{tikzpicture}
+  \begin{axis}[
+  axis lines = left,
+  xlabel = RUPd,
+  ylabel = Feed Sample,
+  xmin=60, xmax=80,
+  ymin=0, ymax=3,
+  xtick={60,65,70,75,80},
+  ytick={1, 2}]
+    \addplot+[
+    boxplot prepared={
+      median=65,
+      upper quartile=67.5,
+      lower quartile=63,
+      upper whisker=69,
+      lower whisker=62
+    },
+    ] coordinates {};
+    \addplot+[
+    boxplot prepared={
+      median=72,
+      upper quartile=75,
+      lower quartile=66,
+      upper whisker=78,
+      lower whisker=61
+    },
+    ] coordinates {};
+  \end{axis}
+\end{tikzpicture}
+\captionof{figure}{Most of our lab's work is in feed characterization, so box and whisker plots work well for showing the ranges and variation in values}
+\end{frame}
 
 \end{document}
