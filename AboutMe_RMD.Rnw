@@ -47,7 +47,6 @@ Bridgewater, SD
 \item Expected graduation date: Summer 2023
 \end{itemize}
 \end{block}
-
 \end{frame}
 
 \begin{frame}
