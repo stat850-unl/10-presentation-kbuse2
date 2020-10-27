@@ -58,4 +58,4 @@ Everyone likes a good scatter plot
 
 ## CV Link
 
-[Check it out](https://www.github.com/xxxx)
+[Check it out](https://stat850-unl.github.io/10-presentation-kbuse2/CVBUSE.pdf)

@@ -100,6 +100,6 @@ Obviously, it's cows. Growing up on a dairy farm, my life revolved around them. 
 
 \begin{frame}
 \frametitle{CV}
-Check it out: \url{https://github.com/xxxxxx}
+Check it out: \url{https://stat850-unl.github.io/10-presentation-kbuse2/CVBUSE.pdf}
 \end{frame}
 \end{document}
