@@ -1,0 +1,12 @@
+---
+title: "Index"
+author: "Kassidy Buse"
+date: "10/27/2020"
+output: html_document
+---
+
+[Slide set 1](https://stat850-unl.github.io/10-presentation-kbuse2/AboutMe_RMD.pdf)
+
+[Slide set 2](https://stat850-unl.github.io/10-presentation-kbuse2/AboutMe2.html#1)
+
+[CV](https://stat850-unl.github.io/10-presentation-kbuse2/CVBUSE.pdf)
