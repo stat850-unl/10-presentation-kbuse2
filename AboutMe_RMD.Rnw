@@ -99,4 +99,8 @@ Obviously, it's cows. Growing up on a dairy farm, my life revolved around them. 
 \captionof{figure}{Most of our lab's work is in feed characterization, so box and whisker plots work well for showing the ranges and variation in values}
 \end{frame}
 
+\begin{frame}
+\frametitle{CV}
+Check it out: \url{https://github.com/xxxxxx}
+\end{frame}
 \end{document}

@@ -1,0 +1,352 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Kassidy Buse} \\ \vspace{1pt}
+    \small 605-471-9729 $|$ \href{mailto:x@x.com}{\underline{kassidy.buse@huskers.unl.edu}} $|$
+    \href{https://linkedin.com/in/kassidybuse}{\underline{linkedin.com/in/kassidybuse}} $|$
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Nebraska-Lincoln}{Lincoln, NE}
+      {Doctorate of Philosophy in Ruminant Nutrition}{Aug. 2020 -- Present}
+\resumeItemListStart
+      \resumeItem{Advisor: Dr. Paul Kononoff}
+      \resumeItem{Dissertation Title: Reduced-lignin alfalfa in dairy rations: characterization and effects on energy and nitrogen partitioning in dairy cattle}
+\resumeItemListEnd
+      \resumeSubheading
+      {University of Nebraska-Lincoln}{Lincoln, NE}
+      {Master of Science in Ruminant Nutrition}{Aug. 2018 -- Aug. 2020}
+\resumeItemListStart
+      \resumeItem{Advisor: Dr. Paul Kononoff}
+      \resumeItem{Thesis Title: Characterization of protein and fat in dairy feeds and implications on digestibility and milk composition}
+\resumeItemListEnd
+\resumeSubheading
+    {Iowa State University}{Ames, IA}
+      {Bachelor of Science in Animal Science, Minor in Business}{Aug. 2014 -- May 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Dairy Nutrition Research Coordinator}{Sep. 2020 -- Present}
+      {University of Nebraska-Lincoln}{Lincoln, NE}
+    \resumeItemListStart
+        \resumeItem{Contribute to the experimental design, data collection, and analysis of trials conducted by the Dairy Research Team}
+        \resumeItem{Assist in the feeding, milking, and general care of research animals}
+        \resumeItem{Prepare materials that summarize research for presentation at various conferences and meetings}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Hay and Forage Grower Magazine Editorial Intern}{May 2018 -- May 2019}
+      {W. D. Hoard \& Sons}{Fort Atkinson, WI}
+      \resumeItemListStart
+        \resumeItem{Contribute articles and photos to the weekly eHay newsletter as well as the 6 print magazines published each year}
+        \resumeItem{Travel to conferences, conventions, and operations to obtain content for any WD Hoards \& Sons publications}
+        \resumeItem{Assist in the editing process of all articles of Hay and Forage Grower and Hoard’s Dairyman magazines}
+      \resumeItemListEnd
+
+  \resumeSubheading
+      {CycloneLife.net Student Blogger}{Sep. 2014 -- May 2018}
+      {Iowa State University Office of Admissions}{Ames, IA}
+      \resumeItemListStart
+        \resumeItem{Produced weekly posts for current and potential students based on campus activities, services, and lifestyle}
+        \resumeItem{Submitted two photos weekly for social media accounts and advertising}
+        \resumeItem{Monitored and encouraged conversation and questions in incoming classes’ Facebook groups}
+      \resumeItemListEnd
+
+  \resumeSubheading
+      {AnS 337 Undergraduate Teaching Assistant}{Jan. 2018 -- May 2018}
+      {Iowa State University Department of Animal Science}{Ames, IA}
+      \resumeItemListStart
+        \resumeItem{Attended lectures to assist with in class activities, quizzes, presentations, and exams}
+        \resumeItem{Lead and prepared three lectures, one lab, and one major course project}
+        \resumeItem{Graded quizzes, exams, and projects as well as respond to student inquiries in a timely manner}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Research Assistant}{Sep. 2017 -- Dec. 2017}
+      {Iowa State University Department of Animal Science}{Ames, IA}
+      \resumeItemListStart
+        \resumeItem{Assisted with calf feedings, weighing feed, water, and milk amounts offered and refused}
+        \resumeItem{Aided in data collection of weight, measurements, and blood and fecal samples of calves}
+        \resumeItem{Attended bimonthly meetings to review results, procedures, and schedules of research}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {AnS 225 Undergraduate Teaching Assistant}{Aug. 2017 -- Dec. 2017}
+      {Iowa State University Department of Animal Science}{Ames, IA}
+      \resumeItemListStart
+        \resumeItem{Attend weekly meetings to discuss course materials to increase course efficiency}
+        \resumeItem{Assist in leading labs and lectures, answering questions, and facilitating discussion}
+        \resumeItem{Grade homework, quizzes, and other paperwork in a timely manor}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Agronomy Intern}{May. 2017 -- Aug. 2017}
+      {Eldon C. Stutsman, Inc}{Hills, IA}
+      \resumeItemListStart
+        \resumeItem{Scout fields in assigned territory and other fields as needed for weeds, insects, disease, and other issues and report findings back to grower, salesman, and supervisor}
+        \resumeItem{Research weekly assigned topics in agronomy and report research back to supervisor and fellow interns}
+        \resumeItem{Assist other employees throughout the company with various tasks as needed}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Summer 4-H Assistant}{Summer 2015 \& 2016}
+      {Turner County Extension Office}{Parker, SD}
+      \resumeItemListStart
+        \resumeItem{Scanned and entered verification papers, entries, and registration papers into the online 4-H database}
+        \resumeItem{Assisted county 4-H Coordinator with planning and running events}
+        \resumeItem{Managed livestock shows and other 4-H programs during county fair}
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+%-----------Publications-----------
+\section{Publications}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Peer-Reviewed Articles} {}}{}
+          \resumeItemListStart
+            \resumeItem{Buse, K., D. Morris, H. Diaz, O. Drehmel, P. Kononoff. 2020. Comparison of methods to determine ruminal degradation and intestinal digestibility of protein in hydrolyzed feather meal. J. Dairy Sci. Short. Comm.}\emph{Currently in review.}
+            \resumeItem{Buse, K., D. Morris, P. Kononoff. 2020. The effect of a unique high omega 3 fatty acid supplement on milk fatty acid profile and energy utilization of lactating Jersey cows. J. Dairy Sci.}\emph{Currently in review.}
+          \resumeItemListEnd
+
+\resumeProjectHeading
+          {\textbf{Scientific Meeting Abstracts}{}}{}
+          \resumeItemListStart
+            \resumeItem{Buse, K., D. Morris, P. Kononoff. 2020. The effect of a unique high omega 3 fatty acid supplement on milk fatty acid profile and energy utilization of lactating Jersey cows. J. Dairy Sci. Vol 103, Suppl. 1.}
+            \resumeItem{Buse, K., D. Morris, and P. Kononoff. 2019. Ruminal degradation and intestinal digestibility of hydrolyzed feather meal with and without blood. J. Dairy Sci. Vol 102, Suppl. 1.}
+            \resumeItem{McLain, K., K. Buse, T. Brown-BRandl, D. Morris, and P. Kononoff. 2019. Use of mass flow meter in headbox-style indirect calorimetry, and the effects of gas recovery on estimated energy partition in lactating dairy cows. J. Dairy Sci. Vol 102, Suppl. 1.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Newsletter Articles}{}}{}
+          \resumeItemListStart
+            \resumeItem{Buse, K. 2020. Adjusting rations to accomodating constraints on feed and milk supply caused by COVID-19. UNL Dairy Extension Newsletter. May.}
+            \resumeItem{Buse, K., K. Krogstad. 2019. UNL Graduate Students serve as Officials for State Youth Dairy Judging Contest. UNL Dairy Extension Newsletter. September.}
+            \resumeItem{Buse, K. 2019. Pastures need rest, too. Hay and Forage Grower: eHay Weekly. May 14.}
+            \resumeItem{Buse, K. 2019. Shift winter wheat gear to forage. Hay and Forage Grower: eHay Weekly. May 7.}
+            \resumeItem{Buse, K. 2019. What’s best for 2019: quality or quantity. Hay and Forage Grower: eHay Weekly. April 29.}
+            \resumeItem{Buse, K. 2019. High stock density offers several advantages. Hay and Forage Grower: eHay Weekly. April 16.}
+            \resumeItem{Buse, K. 2019. Reduce your risk for mycotoxins. Hay and Forage Grower: eHay Weekly. April 9.}
+            \resumeItem{Buse, K. 2019. Consider these spring-planted forage options. Hay and Forage Grower: eHay Weekly. April 2.}
+            \resumeItem{Buse, K. 2019. Saved seed has legal implications. Hay and Forage Grower: eHay Weekly. March 26.}
+            \resumeItem{Buse, K. 2019. Grazing legumes can benefit some horse types. Hay and Forage Grower: eHay Weekly. March 19.}
+            \resumeItem{Buse, K. 2019. Check alfalfa stands this spring. Hay and Forage Grower: eHay Weekly. March 12.}
+            \resumeItem{Buse, K. 2019. Relative forage quality is the better bet. Hay and Forage Grower: eHay Weekly. March 5.}
+            \resumeItem{Buse, K. 2019. Researching varieties pays dividends. Hay and Forage Grower: eHay Weekly. February 26.}
+            \resumeItem{Buse, K. 2019. Mycotoxins remain a silage challenge. Hay and Forage Grower: eHay Weekly. February 21.}
+            \resumeItem{Buse, K. 2019. Keep grass tetany at bay. Hay and Forage Grower: eHay Weekly. February 18.}
+            \resumeItem{Buse, K. 2019. Coming down the gestation home stretch. Hay and Forage Grower: eHay Weekly. February 12.}
+            \resumeItem{Buse, K. 2019. Study finds no benefit to foliar feeding. Hay and Forage Grower: eHay Weekly. January 29.}
+            \resumeItem{Buse, K. 2019. Stretch those hay supplies. Hay and Forage Grower: eHay Weekly. January 15.}
+            \resumeItem{Buse, K. 2019. Time to make a plan. Hay and Forage Grower: eHay Weekly. January 8.}
+            \resumeItem{Buse, K. 2019. Shopping for hay is like shopping for a truck. Hay and Forage Grower: eHay Weekly. January 2.}
+            \resumeItem{Buse, K. 2018. Time to step up your feeding game. Hay and Forage Grower: eHay Weekly. December 26.}
+            \resumeItem{Buse, K. 2018. Fiber drives meal behaviors. Hay and Forage Grower: eHay Weekly. December 18.}
+            \resumeItem{Buse, K. 2018. These factors drive cornstalk-grazing contracts. Hay and Forage Grower: eHay Weekly. December 4.}
+            \resumeItem{Buse, K. 2018. Cow size, forage quality key winter feed needs. Hay and Forage Grower: eHay Weekly. November 27.}
+            \resumeItem{Buse, K. 2018. Can alfalfa be grazed during the fall? Hay and Forage Grower: eHay Weekly. November 13.}
+            \resumeItem{Buse, K. 2018. Forage amino acids and horse health. Hay and Forage Grower: eHay Weekly. November 6.}
+            \resumeItem{Buse, K. 2018. Get ahead of tall fescue problems this fall. Hay and Forage Grower: eHay Weekly. October 30.}
+            \resumeItem{Buse, K. 2018. Prussic acid poisoning threat to peaking. Hay and Forage Grower: eHay Weekly. October 23.}
+            \resumeItem{Buse, K. 2018. Baleage lowers harvest risk. Hay and Forage Grower: eHay Weekly. October 16.}
+            \resumeItem{Buse, K. 2018. A corn silage Christmas Carol. Hay and Forage Grower: eHay Weekly. October 9.}
+            \resumeItem{Buse, K. 2018. Strip-graze your stockpiled forages. Hay and Forage Grower: eHay Weekly. October 2.}
+            \resumeItem{Buse, K. 2018. CRP hay brings caution flags. Hay and Forage Grower: eHay Weekly. September 25.}
+            \resumeItem{Buse, K. 2018. Buy hay the smart way. Hay and Forage Grower: eHay Weekly. September 18.}
+            \resumeItem{Buse, K. 2018. Windrow grazing reduces feeding costs. Hay and Forage Grower: eHay Weekly. September 11.}
+            \resumeItem{Buse, K. 2018. Don’t miss this fescue opportunity. Hay and Forage Grower: eHay Weekly. September 4.}
+            \resumeItem{Buse, K. 2018. Baled stover offers a winter-feed solution. Hay and Forage Grower: eHay Weekly. August 28.}
+            \resumeItem{Buse, K. 2018. Combination mixtures boost forage yield. Hay and Forage Grower: eHay Weekly. August 14.}
+            \resumeItem{Buse, K. 2018. Besting a trampled situation. Hay and Forage Grower: eHay Weekly. August 14.}
+            \resumeItem{Buse, K. 2018. Widen margins with alfalfa protein. Hay and Forage Grower: eHay Weekly. August 7.}
+            \resumeItem{Buse, K. 2018. Don’t let money evaporate away. Hay and Forage Grower: eHay Weekly. August 7.}
+            \resumeItem{Buse, K. 2018. Every hay grower’s nightmare. Hay and Forage Grower: eHay Weekly. July 31.}
+            \resumeItem{Buse, K. 2018. Don’t let bale losses stack up. Hay and Forage Grower: eHay Weekly. July 31.}
+            \resumeItem{Buse, K. 2018. Minimize hay storage losses. Hay and Forage Grower: eHay Weekly. July 24.}
+            \resumeItem{Buse, K. 2018. Preserve silage quality at all stages. Hay and Forage Grower: eHay Weekly. July 24.}
+            \resumeItem{Buse, K. 2018. Get a summer annual BMR boost. Hay and Forage Grower: eHay Weekly. July 17.}
+            \resumeItem{Buse, K. 2018. Finish beef with corn silage. Hay and Forage Grower: eHay Weekly. July 17.}
+            \resumeItem{Buse, K. 2018. Is a longer chop better? Hay and Forage Grower: eHay Weekly. July 10.}
+            \resumeItem{Buse, K. 2018. Dealing with flooded forages. Hay and Forage Grower: eHay Weekly. July 10.}
+            \resumeItem{Buse, K. 2018. Tall fescue is toxic for mare pregnancies. Hay and Forage Grower: eHay Weekly. July 3.}
+            \resumeItem{Buse, K. 2018. Think forage after wheat. Hay and Forage Grower: eHay Weekly. July 3.}
+            \resumeItem{Buse, K. 2018. Fast drying preserves quality. Hay and Forage Grower: eHay Weekly. June 26.}
+            \resumeItem{Buse, K. 2018. Lose less in bad years. Hay and Forage Grower: eHay Weekly. June 26.}
+            \resumeItem{Buse, K. 2018. Getting the most out of alfalfa grass. Hay and Forage Grower: eHay Weekly. June 19.}
+            \resumeItem{Buse, K. 2018. Control options exist for multiflora rose. Hay and Forage Grower: eHay Weekly. June 19.}
+            \resumeItem{Buse, K. 2018. Think summer annuals now. Hay and Forage Grower: eHay Weekly. June 12.}
+            \resumeItem{Buse, K. 2018. To bloom or not bloom? Hay and Forage Grower: eHay Weekly. June 12.}
+            \resumeItem{Buse, K. 2018. Supplementing short pastures. Hay and Forage Grower: eHay Weekly. June 5.}
+            \resumeItem{Buse, K. 2018. Get after grasses before heading. Hay and Forage Grower: eHay Weekly. June 5.}
+            \resumeItem{Buse, K. 2018. Down and dirty with cutting height. Hay and Forage Grower: eHay Weekly. May 29.}
+            \resumeItem{Buse, K. 2018. Silage: density equals dollars saved. Hay and Forage Grower: eHay Weekly. May 29.}
+            \resumeItem{Buse, K. 2018. New grass can kill pregnancies. Hay and Forage Grower: eHay Weekly. May 22.}
+            \resumeItem{Buse, K. 2018. Alfalfa also keys your grass harvest. Hay and Forage Grower: eHay Weekly. May 22.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+
+      {\textbf{Popular Press Articles}{}}{}
+          \resumeItemListStart
+            \resumeItem{Buse, K., P. Kononoff. 2020. There's more than one way to qantify rumen undegraded protein digestibility. Hoard's Dairyman.} \emph{Pending Publication}
+            \resumeItem{Buse, K. 2019. A Different Kind of Champion. Hoard’s Dairyman. Expo Supplement. September 10, 2019.}
+            \resumeItem{Buse, K. 2019. A Different Kind of Champion. Hay and Forage Grower Magazine. September 2019.}
+            \resumeItem{Buse, K. 2019. The Hay Lady in Pennsylvania. Hay and Forage Grower Magazine. March 2019.}
+            \resumeItem{Buse, K. 2019. They think out of the box. Hay and Forage Grower Magazine. February 2019.}
+            \resumeItem{Buse, K. 2018. Making reduced-lignin work. Hay and Forage Grower Magazine. November 2018.}
+            \resumeItem{Buse, K. 2018. They managed through the drought. Hay and Forage Grower Magazine. November 2018.}
+            \resumeItem{Buse, K. 2018. New grass can kill pregnancies. Hay and Forage Grower Magazine. August/September 2018.}
+            \resumeItem{Buse, K. 2018. Family, farm, and forage. Hay and Forage Grower Magazine. August/September 2018.}
+            \resumeItem{Buse, K. 2018. Ayrshire. Hoard’s Dairyman. July 2018.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------HONORS-----------
+\section{Honors}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Iowa State University Dairy Challenge Team}{– National First Place Team}\emph{(2018)} \\
+     \textbf{Iowa State University Dairy Science Al Hagen Leadership Award}\emph{(2018)} \\
+     \textbf{Iowa State University Dairy Science Outstanding Senior Award}\emph{(2018)} \\
+     \textbf{Iowa State University Academic Success Scholarship}\emph{(2014--2017)}
+    }}
+ \end{itemize}
+
+%
+%-----------Activities and Affiliations-----------
+\section{Activities and Affiliations}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{American Dairy Science Association}{– Graduate Student Division}\emph{(2018--Present)} \\
+     \textbf{National Dairy Shrine}\emph{(2018--Present)} \\
+     \textbf{American Dairy Science Association}{- Student Affiliation Division}\emph{(2014--2018)}
+    }}
+ \end{itemize}
+
+
+
+%-------------------------------------------
+\end{document}
